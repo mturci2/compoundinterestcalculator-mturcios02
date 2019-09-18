@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Compound Interest Calculator</title>
+	<meta name="description" content="DESCRIPTION">
+	<link rel="stylesheet" href="calculator.css">
+
+	<!--[if lt IE 9]>
+	<script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<main>
+	<div class="box01">
+	<h1>compound interest calculator</h1>
+	<form class="inputs">
+
+		<ul class="input-list">
+			<li class="input-group">
+				<label class="input-label" for="amount">starting amount:</label>
+				<input type="number" class="calculator-input" name="amount" value="1000">
+			</li>
+			<li class="input-group">
+				<label class="input-label" for="amount">interest rate:</label>
+				<input type="number" class="calculator-input" name="amount" value="1000">
+			</li>
+			<li class="input-group">
+				<label class="input-label" for="contribution">annual contribution:</label>
+				<input type="number" class="calculator-input" name="contribution" value="0">
+			</li>
+			<li class="input-group">
+				<label class="input-label" for="duration">duration:</label>
+				<input type="number" class="calculator-input" name="duration" value="10">
+			</li>
+		</ul>
+	</form>
+</div>
+			</div>
+
+<div class="box02">
+		<button type="button" class="submit-button" onclick="calculate()">calculate</button>
+	</form>
+</div>
+
+<div class="box03">
+		<section class="results">
+			<div class="result-total">
+				<h1>results</h1>
+				<span class="result-label">total after <strong class="duration-val">10</strong> years</span>
+				<strong class="final-val">$1218.99</strong>
+				<div class="final-bar"></div>
+			</div>
+			<div class="result-bar">
+				<div class="starting-bar"></div>
+				<div class="contribution-bar"></div>
+				<div class="return-bar"></div>
+			</div>
+			<div class="result-starting">
+				starting amount: <strong class="starting-val">$1000</strong>
+			</div>
+			<div class="result-contribution">
+				annual contribution total: <strong class="contribution-val">$0.00</strong>
+			</div>
+			<div class="result-return">
+				total return: <strong class="return-val">$0.00</strong>
+			</div>
+</div>
+	</section>
+	<div class="box04">
+		<h1>infographic</h1>
+	</div>
+</main>
+	<script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>
